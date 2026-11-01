@@ -1,0 +1,184 @@
+═══════════════════════════════════════════════════════════════
+    DEMO DATA SUMMARY - What You'll Have After Seeding
+═══════════════════════════════════════════════════════════════
+
+🎯 RUN THIS FIRST:
+   cd backend
+   venv\Scripts\activate
+   python seed_demo_data.py
+
+═══════════════════════════════════════════════════════════════
+
+📊 HISTORICAL SENSOR DATA (7 Days)
+───────────────────────────────────────────────────────────────
+✓ 2,016 sensor readings (6 sensors × 336 time points)
+✓ Readings every 5 minutes
+✓ Realistic daily patterns:
+  • Morning TDS spikes (6-10 AM)
+  • Peak usage periods (morning/evening)
+  • Occasional turbidity spikes
+  • Temperature variations
+
+📈 WHERE TO SHOW:
+   → Historical Analytics page
+   → Trend charts populated
+   → 7-day data visible
+
+═══════════════════════════════════════════════════════════════
+
+🚨 SAMPLE ALERTS (11 Total)
+───────────────────────────────────────────────────────────────
+
+📌 ACTIVE ALERTS (2 - Not Resolved):
+
+1. ⚠️  WARNING - Filter Maintenance
+   "Carbon filter health below 30% - replacement recommended"
+   → 2 hours ago
+   → Not acknowledged
+
+2. ℹ️  INFO - System Event
+   "UV lamp usage exceeded 8000 hours"
+   → 5 hours ago
+   → Acknowledged but not resolved
+
+📋 HISTORICAL ALERTS (9 - Resolved):
+
+3. ⚠️  WARNING - Water Quality (12h ago) ✓ RESOLVED
+   "Turbidity spike: 8.5 NTU"
+
+4. 🔴 CRITICAL - Sensor Fault (1d ago) ✓ RESOLVED
+   "TDS sensor out of range - calibration required"
+
+5. ℹ️  INFO - System (1d ago)
+   "RO recovery dropped to 45%"
+
+6. ⚠️  WARNING - Filter (2d ago) ✓ RESOLVED
+   "Sediment filter clogging"
+
+7. ℹ️  INFO - Performance (3d ago) ✓ RESOLVED
+   "UF backwash completed"
+
+8. ⚠️  WARNING - Water Quality (4d ago) ✓ RESOLVED
+   "Inlet TDS elevated: 650 ppm"
+
+9. 🔴 CRITICAL - Safety (5d ago) ✓ RESOLVED
+   "Output verification failed - dispensing locked"
+
+10. ℹ️ INFO - System (6d ago) ✓ RESOLVED
+    "System startup completed"
+
+📱 WHERE TO SHOW:
+   → Alerts & Events page
+   → Shows 2 active, 9 resolved
+   → Filter by severity
+   → Timeline view populated
+
+═══════════════════════════════════════════════════════════════
+
+🔧 FILTER HEALTH DATA (5 Filters)
+───────────────────────────────────────────────────────────────
+
+1. Sediment Filter
+   Health: 65% 🟡
+   Usage: 4,500 litres, 1,200 hours
+   Last replaced: 45 days ago
+   Next due: In 30 days
+
+2. Carbon Filter ⚠️ NEEDS ATTENTION
+   Health: 28% 🔴 (LOW!)
+   Usage: 18,500 litres, 4,800 hours
+   Last replaced: 180 days ago
+   Next due: In 10 days
+
+3. UF Membrane
+   Health: 82% 🟢 (GOOD)
+   Usage: 8,200 litres, 2,100 hours
+   Last replaced: 90 days ago
+   Next due: In 180 days
+
+4. RO Membrane
+   Health: 55% 🟡
+   Usage: 12,000 litres, 3,200 hours
+   Last replaced: 150 days ago
+   Next due: In 60 days
+
+5. UV Lamp ⚠️ HIGH USAGE
+   Health: 45% 🟡
+   Usage: 15,000 litres, 8,200 hours (HIGH!)
+   Last replaced: 280 days ago
+   Next due: In 20 days
+
+📊 WHERE TO SHOW:
+   → Filter Intelligence page
+   → Overview page (filter health section)
+   → Shows realistic maintenance needs
+
+═══════════════════════════════════════════════════════════════
+
+💬 WHAT TO SAY IN YOUR DEMO
+───────────────────────────────────────────────────────────────
+
+When showing ALERTS & EVENTS:
+   "Here we see the alert history. Currently two alerts are
+   active - the carbon filter needs replacement soon at only
+   28% health, and the UV lamp has exceeded 8000 operating
+   hours. The system has tracked 11 total alerts over the past
+   week, with 9 already resolved."
+
+When showing HISTORICAL ANALYTICS:
+   "The system has logged 7 days of continuous sensor data.
+   We can see daily usage patterns - notice the TDS variations
+   during peak morning hours, and occasional turbidity spikes
+   from the inlet water source."
+
+When showing FILTER INTELLIGENCE:
+   "Each filter shows its current health based on usage. The
+   carbon filter at 28% needs replacement within 10 days. The
+   UV lamp has high operating hours at 8200 hours and should
+   be replaced soon. The UF membrane is in excellent condition
+   at 82% health."
+
+When showing OVERVIEW:
+   "The dashboard gives us an at-a-glance view of system health.
+   Notice some filters are flagged for attention - this helps
+   schedule preventive maintenance before failures occur."
+
+═══════════════════════════════════════════════════════════════
+
+✅ VERIFICATION CHECKLIST
+───────────────────────────────────────────────────────────────
+
+After seeding, verify these pages have data:
+
+□ Overview Dashboard
+  → Filter health shows mixed values (not all 100%)
+  → Some filters show yellow/red warnings
+
+□ Alerts & Events
+  → Shows "2 Active, 9 Resolved"
+  → Can see alert list with different colors
+  → Timeline view populated
+
+□ Historical Analytics
+  → Charts show 7 days of trend lines
+  → Summary statistics populated
+  → Export button available
+
+□ Filter Intelligence
+  → All 5 filters show different health levels
+  → Carbon at ~28% (red warning)
+  → UV at ~45% with high hours
+  → Usage stats populated
+
+═══════════════════════════════════════════════════════════════
+
+🎬 NOW YOU'RE READY TO RECORD!
+───────────────────────────────────────────────────────────────
+
+1. ✅ Demo data seeded
+2. ✅ Realistic values to show and explain
+3. ✅ Active alerts to demonstrate
+4. ✅ Historical data for trend analysis
+5. ✅ Maintenance scenarios to discuss
+
+═══════════════════════════════════════════════════════════════

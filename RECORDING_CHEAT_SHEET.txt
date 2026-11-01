@@ -1,0 +1,99 @@
+═══════════════════════════════════════════════════════════════
+    AQUASENSE-X RECORDING CHEAT SHEET - PRINT THIS!
+═══════════════════════════════════════════════════════════════
+
+🎮 CONTROLS:
+   Win + G          = Open Game Bar
+   Win + Alt + R    = Start/Stop Recording
+   Video saved to:  C:\Users\[You]\Videos\Captures
+
+───────────────────────────────────────────────────────────────
+
+📋 DEMO FLOW (8-10 minutes):
+
+1. OVERVIEW - Introduction (30s)
+   ✓ Say: "AQUASENSE-X for AtomQUEST 2026"
+   ✓ Show 6 sensor cards, treatment pipeline
+
+2. SENSOR SIMULATOR - Start (1m)
+   → Sidebar: Sensor Simulator
+   → Start Simulation → Normal → Start
+   ✓ Say: "Running simulation with realistic sensor data"
+
+3. LIVE MONITORING (1m)
+   → Sidebar: Live Monitoring
+   ✓ Show all 6 sensors updating
+   ✓ Wait 5-10 seconds for real-time updates
+
+4. WATER QUALITY (45s)
+   → Sidebar: Water Quality
+   ✓ Show GOOD/EXCELLENT badge
+   ✓ Scroll through 6 assessments
+
+5. TREATMENT CONTROL (1m)
+   → Sidebar: Treatment Control
+   ✓ Show 7-stage pipeline
+   ✓ Scroll to Output Verification
+   ✓ Say: "Dispensing only allowed after verification"
+
+6. RO RECOVERY (30s)
+   → Sidebar: RO Recovery
+   ✓ Show ~50% recovery rate
+   ✓ Show water saved metrics
+
+7. ⭐ FAULT DEMO (1m 30s) - MOST IMPORTANT!
+   → Sidebar: Sensor Simulator
+   → Scroll to Fault Injection
+   → Select: TDS + Stuck → Inject Fault
+   → Sidebar: Live Monitoring (show TDS red)
+   → Sidebar: Alerts & Events (show new alert)
+   → Sidebar: Treatment Control (show DISPENSING LOCKED)
+   ✓ Say: "Fail-safe locks dispensing when sensor fails"
+
+8. FILTER INTELLIGENCE (30s)
+   → Sidebar: Filter Intelligence
+   ✓ Show 5 filter health cards
+
+9. POOR QUALITY DEMO (1m)
+   → Sidebar: Sensor Simulator
+   → Stop Simulation → Start → Poor Quality → Start
+   → Sidebar: Live Monitoring (TDS ~800)
+   → Sidebar: Water Quality (POOR rating)
+   ✓ Say: "System adapts to challenging water"
+
+10. CLOSING (30s)
+    → Sidebar: Overview
+    ✓ Say: "Designed for real sensor deployment"
+    ✓ Say: "Thank you - AQUASENSE-X for AtomQUEST 2026"
+
+───────────────────────────────────────────────────────────────
+
+⚡ QUICK TIPS:
+   • Speak clearly at moderate pace
+   • Move cursor SLOWLY
+   • Pause 2 seconds between pages
+   • Don't rush!
+   • If mistake: pause 3s, restart sentence
+
+───────────────────────────────────────────────────────────────
+
+✅ BEFORE RECORDING:
+   □ Start backend: backend\venv\Scripts\activate + uvicorn
+   □ Start frontend: frontend\npm run dev
+   □ Browser: http://localhost:5173
+   □ Focus Assist ON
+   □ Close other apps
+   □ Hide desktop icons
+   □ Full screen browser (F11)
+
+───────────────────────────────────────────────────────────────
+
+🎯 KEY FEATURES TO MENTION:
+   ✓ 6 real-time sensors
+   ✓ Intelligent treatment engine
+   ✓ Independent verification
+   ✓ Fail-safe dispensing lock ⭐
+   ✓ RO water recovery
+   ✓ Predictive maintenance
+
+═══════════════════════════════════════════════════════════════

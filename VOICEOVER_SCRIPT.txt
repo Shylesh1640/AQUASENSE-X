@@ -1,0 +1,189 @@
+AQUASENSE-X VOICEOVER SCRIPT
+========================================
+Duration: 5-7 minutes
+Read naturally, pause between sections
+
+
+=== INTRODUCTION (30 seconds) ===
+
+Welcome to AQUASENSE-X - an AI-powered intelligent water purification monitoring and predictive maintenance platform.
+
+Developed for AtomQUEST 2026, AQUASENSE-X extends conventional water purification by integrating multi-parameter sensing, intelligent treatment decisions, independent verification, and data-driven predictive maintenance.
+
+
+=== ARCHITECTURE (45 seconds) ===
+
+The system follows a five-stage intelligent pipeline: SENSE, DECIDE, PURIFY, VERIFY, and LEARN.
+
+Six sensors continuously monitor water quality - measuring TDS, pH, turbidity, temperature, flow rate, and pressure.
+
+This data feeds into an intelligent treatment engine that selects the optimal purification path through our seven-stage treatment system.
+
+
+=== SIMULATION START (40 seconds) ===
+
+Let me demonstrate the system with a live simulation.
+
+I'm navigating to the Sensor Simulator where we can test different water quality scenarios.
+
+We'll start with the 'Normal' scenario - simulating clean municipal water supply.
+
+
+=== LIVE MONITORING (50 seconds) ===
+
+Now the simulation is running. Let's check the Live Monitoring page where we can see real-time sensor data.
+
+Each parameter updates continuously with realistic physics-based behavior.
+
+Notice the sparkline charts showing recent trends, and the color-coded status indicators.
+
+The TDS is around 300 parts per million, pH is neutral at 7.2, and turbidity is low - all indicating good quality inlet water.
+
+
+=== WATER QUALITY (45 seconds) ===
+
+The Water Quality page provides intelligent assessment of all six parameters.
+
+Each reading is evaluated against WHO drinking water standards with clear color-coded indicators.
+
+Green means optimal, yellow is acceptable, and red indicates critical levels requiring immediate attention.
+
+The system also provides detailed explanations for each assessment.
+
+
+=== TREATMENT CONTROL (50 seconds) ===
+
+Here's the heart of the purification system - our seven-stage treatment pipeline.
+
+The intelligent engine automatically selects which stages to activate based on inlet water quality.
+
+For this normal water, we're using the standard path: Sediment filter, Carbon filter, Ultrafiltration, Reverse Osmosis, UV sterilization, and Remineralization.
+
+Each stage shows its current status, health percentage, and effectiveness.
+
+
+=== VERIFICATION (30 seconds) ===
+
+Critical to safety is our independent output verification system.
+
+Before any water is dispensed, post-treatment sensors verify that TDS, pH, and turbidity meet strict safety standards.
+
+Only when all parameters pass verification is dispensing allowed.
+
+
+=== RO RECOVERY (40 seconds) ===
+
+Water conservation is built into the design.
+
+Our RO Recovery system tracks and routes reject water to controlled non-potable reuse - for irrigation, cleaning, or cooling.
+
+We're targeting 50% or better recovery rates.
+
+The system monitors recovery percentage, total saved water, and potential environmental impact over time.
+
+
+=== ALERTS (45 seconds) ===
+
+The intelligent alert system monitors all aspects of operation.
+
+Alerts are categorized by severity - critical, warning, or informational - and by type such as sensor faults, water quality issues, or filter maintenance needs.
+
+Each alert includes a clear description and recommended action.
+
+Since we're running a normal scenario, there shouldn't be many alerts.
+
+
+=== FAULT INJECTION (1 minute 10 seconds) ===
+
+Let me demonstrate the system's response to problems.
+
+I'll inject a fault into the TDS sensor - simulating a sensor failure.
+
+Watch what happens to the system.
+
+[PAUSE - perform actions]
+
+Notice how the system immediately detected the invalid sensor reading, generated an alert, and most importantly - locked dispensing as a safety precaution.
+
+This fail-safe behavior ensures no water is dispensed when critical sensors fail.
+
+
+=== FILTER INTELLIGENCE (40 seconds) ===
+
+AQUASENSE-X includes machine learning for predictive maintenance.
+
+The Filter Intelligence page shows the health of all five filter types.
+
+In a full deployment, trained ML models would predict remaining filter life based on usage patterns, inlet water quality, and operating conditions.
+
+This helps schedule maintenance before failures occur, not after.
+
+
+=== ANALYTICS (35 seconds) ===
+
+All sensor data is logged for analysis.
+
+The Historical Analytics page provides trend visualization and data export capabilities.
+
+You can view sensor trends over time, analyze patterns, and export data to CSV for further analysis or reporting.
+
+
+=== POOR QUALITY SCENARIO (50 seconds) ===
+
+Let me show you how the system adapts to challenging water conditions.
+
+I'll stop the current simulation and start the 'Poor Quality' scenario - simulating water with high dissolved solids and elevated turbidity.
+
+[PAUSE - perform actions]
+
+Notice the elevated TDS around 800 parts per million and turbidity around 10 NTU.
+
+The system has classified this as poor quality water and adjusted its treatment approach accordingly.
+
+
+=== API DOCUMENTATION (30 seconds) ===
+
+AQUASENSE-X is built on a robust FastAPI backend with over 40 REST endpoints.
+
+The interactive API documentation provides complete access to all system functions - from sensor readings to simulation control to predictive maintenance.
+
+This makes integration with existing systems or custom interfaces straightforward.
+
+
+=== TECHNOLOGY STACK (25 seconds) ===
+
+The platform is built with modern, production-ready technologies.
+
+The backend uses Python with FastAPI, SQLAlchemy for data persistence, and scikit-learn for machine learning.
+
+The frontend is React with TypeScript, Tailwind CSS for styling, and TanStack Query for data management.
+
+Real-time updates use WebSocket communication.
+
+
+=== CLOSING (35 seconds) ===
+
+What you've seen is a fully functional simulation platform.
+
+The system is designed for real-world deployment through a hardware abstraction layer.
+
+When connected to physical sensors - ESP32, STM32, or Raspberry Pi - the software seamlessly switches from simulation to actual monitoring.
+
+The same intelligent algorithms, safety checks, and predictive maintenance apply to real water purification systems.
+
+Thank you for watching this demonstration of AQUASENSE-X - Intelligent Water, Predictive Care, Trusted Purification.
+
+
+========================================
+END OF SCRIPT
+========================================
+
+TOTAL ESTIMATED TIME: 6 minutes 50 seconds
+
+TIPS FOR RECORDING:
+- Read naturally, not robotically
+- Pause between sections
+- Emphasize key phrases in italics
+- Match your pace to the screen actions
+- Re-record sections if needed
+- Leave 1-2 seconds of silence at start/end for editing
