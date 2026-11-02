@@ -86,11 +86,10 @@ class WaterQualityService:
         overall_message = self._generate_overall_message(parameter_assessments, overall_level)
 
         return WaterQualityAssessment(
+            timestamp=datetime.utcnow(),
             overall_level=overall_level,
-            overall_message=overall_message,
             parameters=parameter_assessments,
-            timestamp=datetime.utcnow().isoformat(),
-            is_simulated=any(r.is_simulated for r in readings)
+            summary=overall_message
         )
 
     def _assess_parameter(self, sensor_type: SensorType, value: float, unit: str) -> ParameterAssessment:
@@ -216,8 +215,7 @@ class WaterQualityService:
             value=value,
             unit=unit,
             level=level,
-            message=message,
-            explanation=explanation,
+            description=f"{message}. {explanation}",
             threshold_low=thresholds.get('normal', (None, None))[0],
             threshold_high=thresholds.get('normal', (None, None))[1]
         )
